@@ -1,4 +1,4 @@
-# SpringBoot-MongoDB-Microservice-Starter [Client]
+# SpringBoot-MongoDB-Microservice-Starter
 
 This repository serves as a starter kit for building microservices using **Spring Boot** and **MongoDB**. It provides a solid foundation for developers looking to create scalable and efficient microservices with a minimal setup.
 
