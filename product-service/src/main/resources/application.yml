@@ -1,0 +1,14 @@
+spring:
+    application:
+        name: product-service
+    main:
+      allow-bean-definition-overriding: true
+      allow-circular-references: true
+    data:
+      mongodb:
+        uri: mongodb://localhost:27017/microservice-product
+        database: microservice-product
+
+
+server:
+  port: 9000
