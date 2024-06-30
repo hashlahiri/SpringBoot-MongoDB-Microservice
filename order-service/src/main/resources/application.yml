@@ -1,0 +1,14 @@
+spring:
+    application:
+        name: order-service
+    main:
+        allow-bean-definition-overriding: true
+        allow-circular-references: true
+    data:
+        mongodb:
+            uri: mongodb://localhost:27017/microservice-order
+            database: microservice-order
+
+
+server:
+    port: 9001

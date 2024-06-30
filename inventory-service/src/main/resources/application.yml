@@ -1,0 +1,14 @@
+spring:
+    application:
+        name: inventory-service
+    main:
+        allow-bean-definition-overriding: true
+        allow-circular-references: true
+    data:
+        mongodb:
+            uri: mongodb://localhost:27017/microservice-inventory
+            database: microservice-inventory
+
+
+server:
+    port: 9002
